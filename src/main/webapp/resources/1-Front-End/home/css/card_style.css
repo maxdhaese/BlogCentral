@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.userComment {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
+    margin-top: 40px;
+    width: 750px;
+    min-height: 258px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.card-title {
+    color: green;
+}
+
+.card-title>a {
+    color: inherit;
+}
+
+.card-left {
+    background-color: #eee;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+.card-left-title {
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+    padding: 5px 3px;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    margin-right: 20px;
+}
+
+.card-message {
+    margin-top: auto;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    flex: 1;
+}
+
+.like-icon {
+    padding-right: 0px;
+    margin-top: -5%;
+}
+
+.reply-icon {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: -2%;
+
+}
+
+.fa-bookmark {
+    padding-left: 10px;
+    float: right;
+    padding-right: 20px;
+}
+
+.card-icons {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.tags-icon {
+    justify-content: flex-end;
+    float: right;
+}
+
+.card-icons>:hover {
+    color: green
+}

@@ -1,0 +1,6 @@
+SESSION:
+    - isLoggedIn : Boolean
+    - triedIllegalRegisterOrLoginAttempt : Boolean
+    - invalidCredentials : Boolean
+    - lastVisitedPage : String
+    - currentPage : String
